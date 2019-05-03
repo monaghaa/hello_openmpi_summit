@@ -11,8 +11,8 @@ yum -y update
 yum -y upgrade
 
 # Speed up yum
-yum install -y yum-plugin-fastestmirror
-yum install -y deltarpm
+#yum install -y yum-plugin-fastestmirror
+#yum install -y deltarpm
 
 # Epel
 yum install -y epel-release
